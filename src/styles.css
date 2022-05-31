@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,body{
+    margin: 10px;
+    background-color: var(--surface-b);   /*agarra el root del primeng de su css interno*/
+    font-family: var(--font-family);
+}
+
+.text-layout{  /*le esta dando una clase a el texto*/
+    color: var(--text-color);
+}
